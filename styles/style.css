@@ -1,0 +1,97 @@
+body, html {
+  height: 100%;
+  text-align: center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("imgs/background.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.no-margin-top {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 250px;
+  color: #FFF;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h5 {
+  font-size: 35px;
+}
+
+.title-buttons {
+  padding-top: 45px;
+}
+
+.tools {
+  font-size: 150px;
+}
+
+#technology {
+  font-size: 120px;
+}
+
+.contact {
+  font-size: 100px;
+}
+
+#about-me {
+  font-size: 22px;
+  padding: 0 10px 0 10px;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+.about {
+  padding: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-top {
+    width: 100%;
+    max-width: 200px;
+    background-color: #3498db;
+    color: white;
+    box-shadow: 0px 2px 5px 1px darkgrey;
+}
+.btn-launch {
+    width: 100%;
+    max-width: 200px;
+    background-color: #2ecc71;
+    color: white;
+    box-shadow: 0px 2px 5px 1px darkgrey;
+}
