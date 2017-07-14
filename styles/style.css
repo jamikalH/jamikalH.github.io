@@ -95,3 +95,8 @@ h4 {
     color: white;
     box-shadow: 0px 2px 5px 1px darkgrey;
 }
+
+#profile {
+  height: 350px;
+  width: 350px;
+}
