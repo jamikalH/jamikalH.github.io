@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -16,15 +17,15 @@
 
   <!-- parallax start -->
   <div class="parallax no-margin-top">
-    <h1>My name is Jamikal Hall.</h1>
+    <h1 id="top">My name is Jamikal Hall.</h1>
     <h5>I like coding.</h5>
     <div class="container title-buttons">
       <div class="row">
         <div class="col-xs-12 col-sm-6">
-          <button class="btn btn-top" name="button">The Projects</button>
+          <a href="#projects" class="btn btn-top" role="button">The Projects</a>
         </div>
         <div class="col-xs-12 col-sm-6">
-          <button class="btn btn-top" name="button">The Programmer</button>
+          <a href="#technology" class="btn btn-top" role="button">The Programmer</a>
         </div>
       </div>
     </div>
@@ -32,7 +33,7 @@
   <hr>
   <!-- parallax end -->
   <div class="container">
-    <h2> The Projects </h2>
+    <h2 id="projects"> The Projects </h2>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -144,6 +145,7 @@
       </div>
     </div>
   </div>
+  <a href="#top" class="btn btn-top" role="button"> Return to top </a>
   <hr>
   <!--programmer end-->
 </body>
